@@ -1,0 +1,45 @@
+/**
+ * Grid styles (powered by Neat)
+ */
+
+$grid_columns:      12;
+$grid_full:         $grid_columns;
+$grid_half:         ($grid_columns * 0.5);
+$grid-max-width:    700px;
+
+$grid: (
+    columns: $grid_columns,
+    gutter: 2rem,
+);
+
+$grid--tablet: (
+    columns: $grid_columns,
+    gutter: 2rem,
+    media: "(max-width: 1024px)",
+);
+
+$grid--mobile: (
+    columns: $grid_columns,
+    gutter: 0rem,
+    media: "(max-width: 768px)",
+);
+
+.grid {
+    @include grid-container;
+}
+
+@for $i from 1 through $grid_columns {
+    .grid--column-#{$i} {
+        @include grid-column($i, $grid);
+
+        @include grid-media($grid--mobile) {
+            @include grid-column(12, $grid);
+            @include grid-collapse();
+        }
+    }
+}
+
+section .grid {
+    max-width: $grid-max-width;
+    margin: auto;
+}

@@ -1,0 +1,25 @@
+header {
+    h1 {
+        text-align: center;
+        color: $near-black;
+        font-family: $secondary_font;
+        font-size: 2.75rem;
+        margin-top: 3rem;
+        padding: 0;
+        font-weight: 700;
+        letter-spacing: 0.05rem;
+
+        div {
+            width: auto;
+            display: inline;
+            text-transform: capitalize;
+        }
+
+
+        @include grid-media($grid--mobile) {
+            span {
+                display: block;
+            }
+        }
+    }
+}
