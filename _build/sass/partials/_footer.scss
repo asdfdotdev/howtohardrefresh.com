@@ -9,6 +9,10 @@ footer {
     z-index: 100;
     position: relative;
 
+    @include grid-media($grid--mobile) {
+        padding-bottom: 4rem;
+    }
+
     svg {
         width: 90px;
         height: 30px;
