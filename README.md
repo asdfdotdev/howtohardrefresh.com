@@ -30,6 +30,9 @@ This code is better because of the the generosity of a whole bunch of people.
 * [Featherlight](https://noelboss.github.io/featherlight/)
 * [Neat](http://neat.bourbon.io/)
 * [Normalize.css](https://necolas.github.io/normalize.css/)
+* [Platform.js](https://mths.be/platform)
+* [Fontello](http://fontello.com/)
+* [Matthias Kretschmann](http://kremalicious.com/using-kbd-for-fun-and-profit/)
 
 ## License
 Released under [GNU GPL 2.0](http://www.gnu.org/licenses/gpl-2.0.html)
