@@ -9,16 +9,16 @@ A website. [See it in action.](https://howtohardrefresh.com)
 
 ## Build
 
-Gulp is used to automate creation of JavaScript and CSS assets.
+Webpack is used to automate creation of JavaScript and CSS assets.
 
 #### CSS
 
-* Source: `/_build/sass/`
+* Source: `/src/sass/`
 * Output: `/css/`
 
 #### JavaScript
 
-* Source: `/_build/javascript/`
+* Source: `/src/javascript/`
 * Output: `/js/`
 
 ## Libraries
