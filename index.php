@@ -41,11 +41,11 @@ if (!$smarty->isCached('base.tpl', $cache_id)) {
                 'mouse' => '<kbd>shift</kbd> + click reload',
             ),
             'windows' => array(
-                'keyboard' => '<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kdb>R</kdb>',
+                'keyboard' => '<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>R</kbd>',
                 'mouse' => '<kbd>shift</kbd> + click reload',
             ),
             'linux' => array(
-                'keyboard' => '<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kdb>R</kdb>',
+                'keyboard' => '<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>R</kbd>',
                 'mouse' => '<kbd>shift</kbd> + click reload',
             ),
         ),
