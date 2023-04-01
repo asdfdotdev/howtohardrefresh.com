@@ -18,9 +18,16 @@ following:
 
 ## The Code
 
-Is available in its entirety [at our GitHub repository](https://github.com/asdfdotdev/How-To-Hard-Refresh). (This page is the ReadMe!)
+Is available in its entirety [at our GitHub repository](https://github.com/asdfdotdev/How-To-Hard-Refresh).
+(This page is the ReadMe!)
 
 ## The Authors
 
-How to Hard Refresh is brought to you by your friends at [asdf.dev](https://asdf.dev), purveyors of fine open source projects for
-our friends.
+How to Hard Refresh is brought to you by your friends at [asdf.dev](https://asdf.dev), purveyors of fine open source
+projects.
+
+## The Disclaimer
+
+How to Hard Refresh is not affiliated in any way with Apple Inc., Microsoft Corporation, Opera Software AS,
+Google Inc., or Mozilla Foundation. All products, logos, brands, and other trademarks featured or referred to herein
+are the property of their respective owners.
