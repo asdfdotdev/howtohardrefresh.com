@@ -1,7 +1,7 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
-const url = 'https://www.howtohardrefresh.com'
+const url = 'https://howtohardrefresh.com'
 
 module.exports = {
   siteMetadata: {
