@@ -1,0 +1,9 @@
+{
+  "name": "Safari",
+  "instructions": {
+    "mac": {
+      "keyboard": "<kbd>&#8984;</kbd> + <kbd>option</kbd> + <kbd>E</kbd><span>(Clears Browser Cache)</span>",
+      "mouse": "<kbd>Shift</kbd> + Click Reload"
+    }
+  }
+}

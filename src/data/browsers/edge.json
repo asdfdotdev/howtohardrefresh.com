@@ -1,0 +1,17 @@
+{
+  "name": "Edge",
+  "instructions": {
+    "windows": {
+      "keyboard": "<kbd>Ctrl</kbd> + <kbd>F5</kbd>",
+      "mouse": "<kbd>Ctrl</kbd> + Click Reload"
+    },
+    "mac": {
+      "keyboard": "<kbd>Ctrl</kbd> + <kbd>F5</kbd>",
+      "mouse": "<kbd>Ctrl</kbd> + Click Reload"
+    },
+    "linux": {
+      "keyboard": "<kbd>Ctrl</kbd> + <kbd>F5</kbd>",
+      "mouse": "<kbd>Ctrl</kbd> + Click Reload"
+    }
+  }
+}

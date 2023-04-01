@@ -1,0 +1,17 @@
+{
+  "name": "Firefox",
+  "instructions": {
+    "windows": {
+      "keyboard": "<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>",
+      "mouse": "<kbd>Shift</kbd> + Click Reload"
+    },
+    "mac": {
+      "keyboard": "<kbd>&#8984;</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>",
+      "mouse": "<kbd>Shift</kbd> + Click Reload"
+    },
+    "linux": {
+      "keyboard": "<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>",
+      "mouse": "<kbd>Shift</kbd> + Click Reload"
+    }
+  }
+}

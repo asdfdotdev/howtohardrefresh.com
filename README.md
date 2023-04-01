@@ -1,38 +1,26 @@
-# How to Hard Refresh
+# About
 
-A website. [See it in action.](https://howtohardrefresh.com)
+How to Hard Refresh grew out of a tongue-in-cheek joke exchanged in slack, but has grown
+into a modestly useful resource regularly linked to in support tickets the world over.
 
-### Contents
-- [Build](#build)
-- [Libraries](#libraries)
-- [License](#license)
+Whether you sought us out, or were sent here by a "friend", we hope you find the site helpful. 😊
 
-## Build
+## Credits & Thanks Yous
 
-Webpack is used to automate creation of JavaScript and CSS assets.
+This site is better thanks to the generous contributions of open source contributors the world over. Thank you to the
+following:
 
-#### CSS
+- <a href="https://www.gatsbyjs.com/" target="_blank" rel="noopener noreferrer">Gatsby</a>
+- <a href="https://github.com/styled-components" target="_blank" rel="noopener noreferrer">Styled Components</a>
+- <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>
+- <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Font Awesome</a>
+- <a href="https://notofonts.github.io/#lao" target="_blank" rel="noopener noreferrer">Noto Sans Lao</a>
 
-* Source: `/src/sass/`
-* Output: `/css/`
+## The Code
 
-#### JavaScript
+Is available in its entirety [at our GitHub repository](https://github.com/asdfdotdev/How-To-Hard-Refresh). (This page is the ReadMe!)
 
-* Source: `/src/javascript/`
-* Output: `/js/`
+## The Authors
 
-## Libraries
-
-This code is better because of the the generosity of a whole bunch of people.
-
-* [Smarty](http://www.smarty.net/)
-* [jQuery](https://jquery.com/)
-* [Featherlight](https://noelboss.github.io/featherlight/)
-* [Neat](http://neat.bourbon.io/)
-* [Normalize.css](https://necolas.github.io/normalize.css/)
-* [Platform.js](https://mths.be/platform)
-* [Fontello](http://fontello.com/)
-* [Matthias Kretschmann](http://kremalicious.com/using-kbd-for-fun-and-profit/)
-
-## License
-Released under [GNU GPL 2.0](http://www.gnu.org/licenses/gpl-2.0.html)
+How to Hard Refresh is brought to you by your friends at [asdf.dev](https://asdf.dev), purveyors of fine open source projects for
+our friends.
