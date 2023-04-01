@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import classNames from 'classnames';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useBrowserJson } from '../hooks/use-browser-json'
 import { device, isMobile } from '../scripts/devices'
 import { myBrowser, myOs } from '../scripts/profile';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faChrome,
   faFirefoxBrowser,
@@ -228,35 +228,10 @@ const BrowserStyles = styled.div`
 
 const BrowsersContent = () => {
   const browserReference = useRef([]);
-
-  const data = useStaticQuery(graphql`
-    query Browsers {
-      allJson(sort: {name: ASC}) {
-        edges {
-          node {
-            name
-            instructions {
-              linux {
-                keyboard
-                mouse
-              }
-              mac {
-                keyboard
-                mouse
-              }
-              windows {
-                keyboard
-                mouse
-              }
-            }
-          }
-        }
-      }
-    }
-  `)
+  const browserData = useBrowserJson()
 
   const [activeIndex, setActiveIndex] = useState({
-    browser: (!isMobile()) ? myBrowser(data.allJson.edges.map(edge => edge.node.name)) : -1,
+    browser: (!isMobile()) ? myBrowser(browserData.map(edge => edge.node.name)) : -1,
     os: myOs()
   });
 
@@ -269,14 +244,14 @@ const BrowsersContent = () => {
   }
 
   function setActiveBrowser(which) {
-    let instructions = data.allJson.edges[which].node.instructions[activeIndex.os];
+    let instructions = browserData[which].node.instructions[activeIndex.os];
 
     if (instructions) {
       setActiveIndex({browser: which, os: activeIndex.os})
     } else {
       setActiveIndex({
         browser: which,
-        os: getFirstAvailableInstruction(data.allJson.edges[which].node.instructions)
+        os: getFirstAvailableInstruction(browserData[which].node.instructions)
       })
     }
   }
@@ -286,7 +261,7 @@ const BrowsersContent = () => {
   }
 
   function maybeScrollToBrowser(which) {
-    if (isMobile) {
+    if (isMobile()) {
       setTimeout(() => {
         let position = browserReference.current[which].offsetTop
 
@@ -301,7 +276,7 @@ const BrowsersContent = () => {
 
   return (
     <>
-      {data.allJson.edges.map((browser, index) => (
+      {browserData.map((browser, index) => (
         <BrowserStyles
           key={index}
           className={classNames({

@@ -5,6 +5,7 @@ import Footer from './footer';
 import GlobalStyles from '../styles/global';
 import Typography from '../styles/typography';
 import { device } from '../scripts/devices'
+import { Seo } from "../components/seo"
 
 const PageStyles = styled.div`
   display: flex;
@@ -46,3 +47,7 @@ export default function Static({ children }) {
     </>
   );
 }
+
+export const Head = () => (
+  <Seo />
+)

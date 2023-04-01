@@ -1,9 +1,13 @@
----
-title: Yup!
-path: /about
-date: 2023-03-26
----
 import Static from '../components/static'
+import { Seo } from "../components/seo"
+
+export const Head = () => (
+  <Seo
+    title="About | How to Hard Refresh"
+    description="Get to know How to Hard Refresh"
+    pathname="/about/"
+  />
+)
 
 <Static>
   # About
@@ -26,11 +30,18 @@ import Static from '../components/static'
 
   ## The Code
 
-  Is available in its entirety [at our GitHub repository](https://github.com/asdfdotdev/How-To-Hard-Refresh). (This page is the ReadMe!)
+  Is available in its entirety [at our GitHub repository](https://github.com/asdfdotdev/How-To-Hard-Refresh).
+  (This page is the ReadMe!)
 
   ## The Authors
 
-  How to Hard Refresh is brought to you by your friends at [asdf.dev](https://asdf.dev), purveyors of fine open source projects for
-  our friends.
+  How to Hard Refresh is brought to you by your friends at [asdf.dev](https://asdf.dev), purveyors of fine open source
+  projects.
+
+  ## The Disclaimer
+
+  HowToHardRefresh.com is not affiliated in any way with Apple Inc., Microsoft Corporation, Opera Software AS,
+  Google Inc., or Mozilla Foundation. All products, logos, brands, and other trademarks featured or referred to herein
+  are the property of their respective owners.
 </Static>
 

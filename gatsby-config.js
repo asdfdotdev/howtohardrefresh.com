@@ -6,7 +6,8 @@ const url = 'https://www.howtohardrefresh.com'
 module.exports = {
   siteMetadata: {
     title: `Hard Refresh any Browser | How to Hard Refresh`,
-    siteUrl: url
+    siteUrl: url,
+    description: `If you need to bypass your web browser cache use these refresh shortcuts to hard refresh your browser and see your latest page updates.`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-styled-components", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',

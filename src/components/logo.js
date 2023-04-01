@@ -12,6 +12,10 @@ const LogoStyles = styled.div`
   color: var(--color-white);
   transition: all 0.4s ease;
 
+  span {
+    color: var(--color-red);
+  }
+
   svg {
     width: 30px;
     height: 30px;
@@ -41,7 +45,7 @@ export default function Logo() {
         </g>
       </svg>
       <div>
-        How to Hard Refresh
+        How <span>to</span> Hard Refresh
       </div>
     </LogoStyles>
   );

@@ -1,6 +1,5 @@
-node_modules/
-.cache/
-public
-
-.idea
 **/.DS_Store
+.cache/
+.idea
+node_modules/
+public
