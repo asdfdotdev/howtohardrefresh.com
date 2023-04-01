@@ -13,6 +13,7 @@ const LogoStyles = styled.div`
   transition: all 0.4s ease;
 
   span {
+    transition: all 0.4s ease;
     color: var(--color-red);
   }
 
@@ -31,6 +32,10 @@ const LogoStyles = styled.div`
     svg {
       transform: rotate(-180deg);
       transition: all 0.8s ease;
+    }
+
+    span {
+      color: var(--color-blue);
     }
   }
 `;
