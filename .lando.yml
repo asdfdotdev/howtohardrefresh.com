@@ -1,0 +1,32 @@
+name: howtohardrefresh-nextjs
+
+services:
+  dev-server:
+    type: node:24
+    port: 3000
+    portforward: 3000
+    ports:
+      - '3000:3000'
+    command: npm run dev -- -p 3000
+
+  static-server:
+    type: node:24
+    port: 4000
+    portforward: 4000
+    ports:
+      - '4000:4000'
+    command: mkdir -p out && npx serve out -l 4000
+
+proxy:
+  dev-server:
+    - dev.howtohardrefresh-next.lndo.site:3000
+  static-server:
+    - static.howtohardrefresh-next.lndo.site:4000
+
+tooling:
+  npm:
+    service: dev-server
+  node:
+    service: dev-server
+  npx:
+    service: dev-server

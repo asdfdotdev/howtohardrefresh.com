@@ -1,28 +1,60 @@
-# Description
+## Summary
 
-Please include a summary of the change and which GitHub issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+<!-- Briefly describe what this pull request changes and why. -->
 
-Fixes # (issue)
+## Related issue
 
-## Type of change
+<!-- Link related issues, for example: Closes #123 -->
 
-Please describe the type of change.
+## Changes
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
+<!-- List the main changes included in this pull request. -->
 
-# How Has This Been Tested?
+-
+-
+-
 
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+## Testing
 
+- [ ] `npm run lint` passes
+- [ ] `npm run build` runs successfully without errors or warnings
+- [ ] The affected pages were tested locally
+- [ ] Navigation and links work correctly
+- [ ] Responsive layouts were checked
+- [ ] No console errors appear in the browser
 
-# Checklist:
+## Accessibility
 
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] I had fun writing this code
+- [ ] Images have appropriate `alt` text
+- [ ] Interactive elements are keyboard-accessible
+- [ ] Heading levels are logical
+- [ ] Color contrast is acceptable
+- [ ] Color alone conveys no important information
+
+## SEO and metadata
+
+- [ ] Page titles and descriptions are correct
+- [ ] Open Graph or social preview metadata was updated if needed
+- [ ] Canonical URLs or sitemap configuration were updated if needed
+- [ ] No unintended pages or links were added
+
+## Static-site considerations
+
+- [ ] The page works without server-side features
+- [ ] No API routes or runtime server dependencies were added
+- [ ] No secrets or environment variables were exposed
+- [ ] Images and assets work correctly in the generated output
+- [ ] Client-side functionality works after a static deployment
+
+## Breaking changes
+
+<!-- Describe breaking changes or migration steps. Write "N/A" if not applicable. -->
+
+## Checklist
+
+- [ ] The pull request has a clear title
+- [ ] The changes are focused and related to the stated purpose
+- [ ] I have reviewed my own changes
+- [ ] Tests and checks pass locally
+- [ ] Documentation was updated where necessary
+- [ ] No secrets, credentials, or unnecessary generated files were committed

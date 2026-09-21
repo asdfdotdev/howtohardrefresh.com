@@ -1,0 +1,23 @@
+{
+  "id": "safari",
+  "name": "Safari",
+  "active": true,
+  "featured": true,
+  "author": "Apple Inc",
+  "engines": {
+    "rendering": "Webkit",
+    "javascript": "JavaScriptCore"
+  },
+  "link": {
+    "href": "https://www.apple.com/safari/",
+    "text": "Learn More"
+  },
+  "instructions": {
+    "mac": {
+      "keyboard": "<kbd>&#8984;</kbd> + <kbd>&#x2325;</kbd> + <kbd>R</kbd>",
+      "keyboard_description": "Press and hold the command key, then press and hold the option key, then press the R key.",
+      "mouse": "Hold <kbd>&#x2325;</kbd> + Click \"View\" menu + Click \"Reload Page from Origin\"",
+      "mouse_description": "Hold the option key, then click the View menu, then click the Reload Page From Origin menu option."
+    }
+  }
+}

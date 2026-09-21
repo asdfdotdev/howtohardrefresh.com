@@ -1,43 +1,46 @@
 {
-  "name": "how-to-hard-refresh",
-  "version": "2.0.0",
-  "private": true,
-  "description": "how-to-hard-refresh",
-  "author": "asdf.dev",
-  "keywords": [
-    "how to",
-    "hard refresh"
-  ],
+  "name": "howtohardrefresh-nextjs",
+  "version": "3.0.0",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^24.0.0",
+    "npm": "^11.0.0"
+  },
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "./deploy.sh"
+    "setup": "npm ci",
+    "setup:uaparser": "npm ci && npm install @ua-parser-js/pro-business --no-save",
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "lint:fix:unsafe": "biome check --write --unsafe ."
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.3.0",
-    "@fortawesome/free-brands-svg-icons": "^6.3.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "@mdx-js/react": "^2.3.0",
-    "babel-plugin-styled-components": "^2.0.7",
-    "classnames": "^2.3.2",
-    "gatsby": "^5.8.0",
-    "gatsby-plugin-image": "^3.8.0",
-    "gatsby-plugin-manifest": "^5.8.0",
-    "gatsby-plugin-mdx": "^5.8.0",
-    "gatsby-plugin-robots-txt": "^1.8.0",
-    "gatsby-plugin-sharp": "^5.8.0",
-    "gatsby-plugin-sitemap": "^6.8.0",
-    "gatsby-plugin-styled-components": "^6.8.0",
-    "gatsby-source-filesystem": "^5.8.0",
-    "gatsby-transformer-json": "^5.8.0",
-    "gatsby-transformer-sharp": "^5.8.0",
-    "normalize.css": "^8.0.1",
-    "platform": "^1.3.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "styled-components": "^5.3.9"
+    "@fortawesome/fontawesome-svg-core": "^7.3.1",
+    "@fortawesome/free-brands-svg-icons": "^7.3.1",
+    "@fortawesome/free-solid-svg-icons": "^7.3.1",
+    "@fortawesome/react-fontawesome": "^3.5.0",
+    "@headlessui/react": "^2.2.10",
+    "@heroicons/react": "^2.2.0",
+    "html-react-parser": "^6.1.7",
+    "isomorphic-dompurify": "^4.2.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.13",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "clsx": "^2.1.1",
+    "next": "^16.3.0",
+    "sharp": "^0.35.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "allowScripts": {
+    "unrs-resolver@1.12.2": true
   }
 }

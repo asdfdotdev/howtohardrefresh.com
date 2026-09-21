@@ -1,0 +1,35 @@
+{
+  "id": "firefox",
+  "name": "Firefox",
+  "active": true,
+  "featured": true,
+  "author": "Mozilla Foundation",
+  "engines": {
+    "rendering": "Gecko",
+    "javascript": "SpiderMonkey"
+  },
+  "link": {
+    "href": "https://www.firefox.com/download/",
+    "text": "Download Now"
+  },
+  "instructions": {
+    "windows": {
+      "keyboard": "<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>",
+      "keyboard_description": "Press and hold the Control key, then press and hold the Shift key, then press the R key.",
+      "mouse": "<kbd>Shift</kbd> + Click Reload",
+      "mouse_description": "Press and hold the Shift key, then click Reload."
+    },
+    "mac": {
+      "keyboard": "<kbd>&#8984;</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>",
+      "keyboard_description": "Press and hold the Command key, then press and hold the Shift key, then press the R key.",
+      "mouse": "<kbd>Shift</kbd> + Click Reload",
+      "mouse_description": "Press and hold the Shift key, then click Reload."
+    },
+    "linux": {
+      "keyboard": "<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>",
+      "keyboard_description": "Press and hold the Control key, then press and hold the Shift key, then press the R key.",
+      "mouse": "<kbd>Shift</kbd> + Click Reload",
+      "mouse_description": "Press and hold the Shift key, then click Reload."
+    }
+  }
+}

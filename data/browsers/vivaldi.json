@@ -1,0 +1,35 @@
+{
+  "id": "vivaldi",
+  "name": "Vivaldi",
+  "active": true,
+  "featured": false,
+  "author": "Vivaldi Technologies AS",
+  "engines": {
+    "rendering": "Blink",
+    "javascript": "V8"
+  },
+  "link": {
+    "href": "https://vivaldi.com/download/  ",
+    "text": "Download Now"
+  },
+  "instructions": {
+    "windows": {
+      "keyboard": "<kbd>Ctrl</kbd> + <kbd>F5</kbd>",
+      "keyboard_description": "Press and hold the Control key, then press the F5 key.",
+      "mouse": "<kbd>Ctrl</kbd> + Click Reload",
+      "mouse_description": "Press and hold the Control key, then click Reload."
+    },
+    "mac": {
+      "keyboard": "<kbd>&#8984;</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>",
+      "keyboard_description": "Press and hold the command key, then press and hold the Shift key, then press the R key.",
+      "mouse": "<kbd>Shift</kbd> + Click Reload",
+      "mouse_description": "Press and hold the Shift key, then click Reload."
+    },
+    "linux": {
+      "keyboard": "<kbd>Ctrl</kbd> + <kbd>F5</kbd>",
+      "keyboard_description": "Press and hold the Control key, then press the F5 key.",
+      "mouse": "<kbd>Ctrl</kbd> + Click Reload",
+      "mouse_description": "Press and hold the Control key, then click Reload."
+    }
+  }
+}

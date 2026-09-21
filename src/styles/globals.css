@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-canvas: var(--color-zinc-50);
+  --color-surface: var(--color-white);
+  --color-border-line: var(--color-zinc-200);
+  --color-text-main: var(--color-zinc-950);
+  --color-text-muted: var(--color-zinc-500);
+  --color-accent-primary: var(--color-rose-500);
+  --font-display: var(--font-heading);
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+@layer components {
+  kbd {
+    @apply mx-2 inline-block whitespace-nowrap rounded-[3px] border-1 border-border-line bg-[#eeeeee] px-2 py-1 font-body font-medium text-base text-lg leading-none shadow-[0_1px_1px_rgba(0,0,0,0.2),inset_0_2px_0_0_rgba(255,255,255,0.7)];
+  }
+
+  .page-about {
+    h2 {
+      @apply pt-8 font-semibold text-xl;
+    }
+    p {
+      @apply pt-4;
+    }
+    a {
+      @apply text-accent-primary underline underline-offset-4 transition-all duration-300 hover:text-text-main;
+    }
+  }
+}

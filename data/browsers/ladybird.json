@@ -1,0 +1,26 @@
+{
+  "id": "ladybird",
+  "name": "Ladybird",
+  "active": false,
+  "featured": false,
+  "author": "Ladybird Browser Initiative",
+  "engines": {
+    "rendering": "LibWeb",
+    "javascript": "LibJS"
+  },
+  "link": {
+    "href": "https://ladybird.org/",
+    "text": "Learn More"
+  },
+  "instructions": {
+    "windows": {
+      "keyboard": "Coming soon..."
+    },
+    "mac": {
+      "keyboard": "Coming soon..."
+    },
+    "linux": {
+      "keyboard": "Coming soon..."
+    }
+  }
+}
